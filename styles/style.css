@@ -1,0 +1,77 @@
+/*---------------- Google font family ----------------*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&display=swap');
+
+/*---------------------- utility/common style ------------------*/
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0 auto;
+    background: #1E1E1E;
+}
+
+.container {
+    width: 1600px;
+    max-width: 100%;
+    background: #FFFFFF;
+}
+
+/*----------------------- Header start ------------------*/
+.cover-background {
+    display: flex;
+    justify-content: center;
+
+}
+
+.cover {
+    width: 80%;
+    height: 646px;
+    background: #161616;
+    border-radius: 30px;
+    margin-top: 48px;
+    margin-bottom: 132px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cover-detail {
+    color: #FFFFFF;
+    border: 2px solid seagreen;
+    width: 45%;
+}
+
+.cover-detail h1 {
+    font-weight: 700;
+    font-size: 70px;
+    margin: 0;
+    line-height: 80px;
+}
+
+.cover-detail p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.cover-detail button {
+    width: 187px;
+    height: 56px;
+    background: #DD0000;
+    border-radius: 5px;
+    border: 0;
+}
+
+.cover-detail button a {
+    font-size: 20px;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 10px;
+    text-decoration: none;
+}
+
+.cover-image {
+    width: 45%;
+    border: 2px solid red;
+}
