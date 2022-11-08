@@ -46,12 +46,30 @@ footer {
     width: 45%;
 }
 
+/*-------------- Header animation start -------------- */
+@keyframes sliding {
+
+    from {
+        color: #09ed09;
+        padding-left: 0px;
+    }
+
+    to {
+        color: #ff8c00;
+        padding-left: 50px;
+    }
+}
+
 .cover-detail h1 {
     font-weight: 700;
     font-size: 70px;
     margin: 0;
     line-height: 80px;
+    animation: sliding 5s ease-in-out 0.5s 2 alternate;
+    animation-play-state: running;
 }
+
+/*-------------- Header animation end -------------- */
 
 .cover-detail p {
     font-weight: 400;
@@ -64,7 +82,7 @@ footer {
 .cover-detail button {
     width: 187px;
     height: 56px;
-    background: #DD0000;
+    background-image: linear-gradient(#09ed09, #022e02);
     border-radius: 5px;
     border: 0;
 }
@@ -127,7 +145,7 @@ footer {
 }
 
 .options .blog-option {
-    background: #DD0000;
+    background-image: linear-gradient(#09ed09, #022e02);
 }
 
 .options .blog-option a {
@@ -444,7 +462,7 @@ footer {
     .more {
         width: 131px;
         height: 47px;
-        background: #DD0000;
+        background-image: linear-gradient(#09ed09, #022e02);
         border-radius: 5px;
         display: flex;
         align-items: center;
